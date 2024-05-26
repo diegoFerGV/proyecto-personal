@@ -1,78 +1,41 @@
 <!DOCTYPE html>
-<html lang="es-GT">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/icon1.png" type="image/png">
+    <title>Mi Sitio Web Personal</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Proyecto Final Diego</title>
 </head>
 <body>
-
-    <header class="general-header">
-        <div class="menu-content">
-            <nav class="navegation">
-                <ul>
-                    <li><a href="iniciar_sesion.html">Iniciar sesión</a></li>
-                    <li><a href="#">Registrarse</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="header-content">
-            <h1>Diego Fernando García Vicente</h1>
-            <p>El objetivo de este sitio web es que los espectadores conozcan un poco sobre mi historia y últimos acontecimientos; espero que 
-                tengan un buen viaje a lo largo de mi corta historia.
-            </p>
-        </div>
+    <header>
+        <h1>Bienvenido a mi sitio web</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#portfolio">Portafolio</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#photos">Fotos</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="general-information">
-        <div class="information-content"></div>
-        <h2>
-            ¿Qué cambios han surgido en mí en los úlitmos años?
-        </h2>
-        <p class="txt-p">
-            A continuación un resumen de lo que se encontrará en mi sitio web...
-        </p>
-
-        <div class="information-groups">
-            <div class="information-1">
-                <img src="img/img1.JPG" alt="imagen cuando tenía 10 años">
-                <h3>Un niño...</h3>
-            </div>
-            <div class="information-2">
-                <img src="img/img10.jpg" alt="imagen de mi edad actual, 18">
-                <h3>Un adulto...</h3>
-            </div>
+    <section id="slider">
+        <div class="slides">
+            <div class="slide"><img src="imagen1.jpg" alt="Imagen 1"></div>
+            <div class="slide"><img src="imagen2.jpg" alt="Imagen 2"></div>
+            <div class="slide"><img src="imagen3.jpg" alt="Imagen 3"></div>
         </div>
     </section>
 
-    <section class="general">
-        <div class="general-1">
-            <h2>
-                lorem 
-            </h2>
-            <p>
-                lorem
-            </p>
-        </div>
-        <div class="general-2">
-
-        </div>
+    <section id="about">
+        <h2>Sobre mí</h2>
+        <p>Hola, soy [Tu Nombre], un desarrollador web apasionado por crear soluciones innovadoras y efectivas.</p>
     </section>
 
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="link">
-                <h3>Contáctame</h3>
-                <ul>
-                    <li><a href="#">IG</a></li>
-                    <li><a href="#">WP</a></li>
-                    <li><a href="#">GIT</a></li>
-                    <li><a href="#">LINKEDIN</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-
+    <!-- Resto del contenido -->
+    
+    <script src="scripts.js"></script>
 </body>
 </html>
