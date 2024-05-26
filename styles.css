@@ -34,7 +34,7 @@ nav ul li a {
 #slider {
     position: relative;
     overflow: hidden;
-    width: 100%;
+    width: 40%;
     max-width: 1000px;
     margin: 20px auto;
 }
@@ -66,4 +66,6 @@ h2 {
     color: #333;
 }
 
-/* Resto del CSS */
+#sobreMi {
+    text-align: justify;
+}
